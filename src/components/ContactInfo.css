@@ -1,0 +1,27 @@
+.info-container {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0rem 0.1rem 0.25rem gray;
+    background-color: #2b94ff;
+    color:white;
+}
+.fullname {
+    margin-left: 1rem;
+}
+.info-list {
+    display: flex;
+    flex-direction: column;
+}
+.info-list > * {
+    display: block;
+}
+.info-list > a {
+    margin: 0.5rem;
+    color: white;
+    text-decoration: none;
+}
+.v-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
